@@ -1,0 +1,14 @@
+.divbuttons{
+  width:688px;
+  position:relative;
+  margin-top:20px;
+  display:inline-block;
+  height:50px;
+  border: 1px solid red;
+            
+}
+.divbuttons:hover{
+  -webkit-box-shadow: 1px 1px 3px #999;
+  box-shadow: 1px 1px 3px #999;
+  border:0.7px dotted;
+}
