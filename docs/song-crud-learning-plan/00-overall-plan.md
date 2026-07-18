@@ -82,6 +82,8 @@ Do not add a framework merely to render a list or submit a form. The DOM,
       [09 - UX and accessibility](09-ux-accessibility.md).
 - [ ] Run the acceptance checks and document local setup in
       [10 - Validation and documentation](10-validation-and-docs.md).
+- [ ] Plan the deployment and security changes in
+      [11 - Production readiness](11-production-readiness.md).
 
 ## Important API facts to keep in mind
 
@@ -131,4 +133,3 @@ The project is complete when all five endpoint rows in the table above are
 reachable from the UI, failures do not leave the page in a misleading state,
 and a new developer can follow the local setup instructions without guessing
 the required URLs or CORS configuration.
-

@@ -1,5 +1,7 @@
+const SongsApiUrl = "https://localhost:7152/songs"
+
 export async function fetchSongs() {
-    const url = "https://localhost:7152/songs"
+    const url = SongsApiUrl
     try {
         const response = await fetch(url)
         if (!response.ok) {
@@ -16,7 +18,7 @@ export async function fetchSongs() {
 export async function postSong(
     title, author, originalTitle, number,
     key, tempo, parts) {
-    const url = "https://localhost:7152/songs"
+    const url = SongsApiUrl
     try {
         const response = await fetch(url,
             {
